@@ -1,0 +1,101 @@
+#aurora-borealis {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+body {
+  font-family: "PT Sans Caption", sans-serif;
+}
+div.weather-box {
+  display: block;
+  max-width: 50%;
+  background-color: #fff;
+  opacity: 78%;
+  padding: 100px;
+  border-radius: 16px;
+  margin: 70px auto;
+}
+.search-box {
+  display: inline-block;
+  background-color: #f9f7fe;
+  font-size: 16px;
+  padding: 25px;
+  border: none;
+  border-radius: 8px;
+  height: 20px;
+  width: 75%;
+  font-family: "PT Sans Caption", sans-serif;
+  color: #a5a1b2;
+}
+
+.search-button {
+  display: inline-block;
+  background-color: #1e4e5a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+  padding: 15px 45px;
+}
+.search-button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 50px 0px 0px;
+  color: #1e4e5a;
+}
+.temperature {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-temperature {
+  font-size: 75px;
+  font-weight: bold;
+  color: #1e4e5a;
+  line-height: 1;
+  margin-left: 10px;
+  position: relative;
+  top: -100px;
+  left: 80px;
+}
+
+.sunny {
+  font-size: 50px;
+}
+
+.unit {
+  font-size: 28px;
+  position: relative;
+  margin-left: 10px;
+  top: -100px;
+  left: 70px;
+  color: #1e4e5a;
+}
+.information {
+  list-style: none;
+  color: gray;
+  margin-left: -40px;
+}
+.current-weather div strong {
+  color: #1e4e5a;
+  font-weight: bolder;
+}
+
+.links a {
+  color: #1e4e5a;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 40px;
+  text-align: center;
+}

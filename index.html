@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="source/styling.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>My weather application</title>
+  </head>
+  <video
+    autoplay
+    muted
+    loop
+    src="video/time_lapse_video_of_aurora_borealis (1080p).mp4"
+    id="aurora-borealis"
+  >
+    <source src type="video/mp4" />
+  </video>
+  <body>
+    <div class="weather-box">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            class="search-box"
+            id="search-input"
+            placeholder="Enter a city..."
+            required
+          />
+          <input type="submit" class="search-button" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 id="firstCity">Paris</h1>
+            <ul>
+              <div class="information">
+                <span id="dateInformation">Saturday 15:32</span>, moderate rain
+                <br />
+                Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              </div>
+            </ul>
+          </div>
+          <div class="temperature">
+            <span id="temperature" class="main-temperature"
+              ><span class="material-symbols-outlined sunny"> sunny </span> 14
+            </span>
+            <span class="unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer class="links">
+        This project was coded by
+        <a href="#" target="_blank">Øzge Bagci</a> and is
+        <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </footer>
+    </div>
+    <script src="source/js.js"></script>
+  </body>
+</html>
