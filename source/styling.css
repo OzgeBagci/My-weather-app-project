@@ -19,6 +19,8 @@ div.weather-box {
   background-color: #fff;
   opacity: 78%;
   padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-radius: 16px;
   margin: 70px auto;
 }
