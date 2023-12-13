@@ -92,10 +92,10 @@ h1 {
   font-weight: bolder;
 }
 
+.links {
+  font-size: 13px;
+}
 .links a {
   color: #1e4e5a;
-  font-size: 14px;
   display: inline-block;
-  margin-top: 40px;
-  text-align: center;
 }

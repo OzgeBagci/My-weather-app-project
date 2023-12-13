@@ -21,6 +21,7 @@ function showCity(event) {
 
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", showCity);
+showCity("Paris");
 
 let now = new Date();
 let information = document.querySelector("#dateInformation");
