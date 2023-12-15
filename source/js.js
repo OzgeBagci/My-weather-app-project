@@ -6,8 +6,11 @@ function showTemperature(response) {
   let searchCity = document.querySelector("#firstCity");
   searchCity.innerHTML = response.data.city;
 
-  let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
+  iconElement.innerHTML = `<img
+ src="${response.data.condition.icon_url}" class="weather-app-icon"/>`;
 
+  let date = new Date(response.data.time * 1000);
   dateInformationElement = document.querySelector("#dateInformation");
   dateInformationElement.innerHTML = formatDate(date);
 

@@ -68,16 +68,20 @@ h1 {
   line-height: 1;
   margin-left: 10px;
   position: relative;
-  top: -100px;
+  top: -140px;
   left: 80px;
 }
 
-.sunny {
-  font-size: 50px;
+.weather-app-icon {
+  font-size: 100px;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+  left: 10px;
 }
 
 .unit {
-  font-size: 28px;
+  font-size: 30px;
   position: relative;
   margin-left: 10px;
   top: -100px;
