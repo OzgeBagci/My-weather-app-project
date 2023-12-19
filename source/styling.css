@@ -68,7 +68,7 @@ h1 {
   line-height: 1;
   margin-left: 10px;
   position: relative;
-  top: -140px;
+  top: -180px;
   left: 80px;
 }
 
@@ -84,7 +84,7 @@ h1 {
   font-size: 30px;
   position: relative;
   margin-left: 10px;
-  top: -100px;
+  top: -140px;
   left: 70px;
   color: #1e4e5a;
 }
@@ -98,6 +98,25 @@ h1 {
   font-weight: bolder;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-icon {
+  font-size: 25px;
+}
+
+.weather-forecast-temperatures {
+  font-size: 16px;
+}
+.weather-forecast-min {
+  opacity: 0.5;
+}
 .links {
   font-size: 13px;
 }
