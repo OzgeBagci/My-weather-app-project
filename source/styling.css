@@ -13,12 +13,12 @@
 body {
   font-family: "PT Sans Caption", sans-serif;
 }
-div.weather-box {
+.weather-box {
   display: block;
   max-width: 50%;
   background-color: #fff;
   opacity: 78%;
-  padding: 100px;
+  padding: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 16px;
@@ -68,8 +68,7 @@ h1 {
   line-height: 1;
   margin-left: 10px;
   position: relative;
-  top: -180px;
-  left: 80px;
+  bottom: 320px;
 }
 
 .weather-app-icon {
@@ -81,11 +80,11 @@ h1 {
 }
 
 .unit {
-  font-size: 30px;
+  font-size: 35px;
   position: relative;
   margin-left: 10px;
-  top: -140px;
-  left: 70px;
+  bottom: 285px;
+  left: -10px;
   color: #1e4e5a;
 }
 .information {
@@ -99,29 +98,40 @@ h1 {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  color: #000;
+  margin-top: 60px;
   display: flex;
+  position: relative;
+  left: 20px;
+  justify-content: space-between;
 }
 
 .weather-forecast-date {
   font-size: 16px;
   display: flex;
+  position: relative;
+  left: 32px;
 }
 
 .weather-forecast-icon {
   font-size: 25px;
+  position: relative;
+  left: -30px;
 }
 
 .weather-forecast-temperatures {
   font-size: 16px;
-  display: flex;
+  display: block;
+  position: relative;
+  left: -10px;
 }
 .weather-forecast-min {
+  margin-left: 10px;
   opacity: 0.5;
 }
 .links {
   font-size: 13px;
+  margin-top: -50px;
+  text-align: center;
 }
 .links a {
   color: #1e4e5a;
